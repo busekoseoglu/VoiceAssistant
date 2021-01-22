@@ -57,7 +57,7 @@ class voiceAssistant():
             self.speak("I am opening github")
 
     def wolfram(self,audio):
-        client = wolframalpha.Client("U84E24-3QRQXA62A2")
+        client = wolframalpha.Client("API KEY")
         self.res = client.query(audio)
         self.speak(next(self.res.results).plainText)
 
