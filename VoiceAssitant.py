@@ -5,10 +5,6 @@ import datetime
 import webbrowser
 import wolframalpha
 
-#text = input("Enter searching value: ")
-
-#result = wikipedia.summary(text, sentences=2)
-#print(result)
 
 class voiceAssistant():
 
